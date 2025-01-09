@@ -17,13 +17,12 @@ class TicTacToeWindow(QWidget):
 
     def initUI(self):
         self.setWindowTitle("Razans Tic Tac Toe")
-        self.setWindowIcon(QIcon(r"C:\Users\MRaza\Downloads\tic-tac-toe-svgrepo-com.svg"))
         self.setGeometry(675,275,512,512)
 
         self.label1=QLabel("Welcome to Tic-tac-toe")
         self.label2=QLabel("Player X's Turn")
-        self.label1.setStyleSheet("font-size: 27px;""font-family: Nebula;")
-        self.label2.setStyleSheet("font-size: 25px;""font-family: Nebula;")
+        self.label1.setStyleSheet("font-size: 27px;""font-family: Arial;")
+        self.label2.setStyleSheet("font-size: 25px;""font-family: Arial;")
         self.label1.setAlignment(Qt.AlignVCenter | Qt.AlignCenter)
         self.label2.setAlignment(Qt.AlignVCenter | Qt.AlignCenter)
 
